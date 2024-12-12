@@ -5,104 +5,106 @@
     outline: 0;
     box-sizing: border-box;
     font-family: "Inter", serif;
-    /* overflow-x: hidden; */
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
 }
 ul,ol{
     list-style-type: none;
-}
-a,a:Hover{
-    text-decoration: none;
-    display: inline-block;
 }
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
     padding: 0;
     line-height: 0.8;
 }
-/* All Common CSS File End */
+/* All Common CSS File Start */
+/* ========================================= */
+/* Menu Part Start */
 
-/* Header Part Start */
 .navbar{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    padding: 30px 0;
 }
 .nav-link{
+    color: #ffffff;
     padding: 0 30px !important;
-    font-size: 18px;
+    font-size: 18;
     font-weight: 400;
-    color: white;
+    margin-top: 10px;
     transition: .4s;
 }
 .nav-link:hover{
     color: #6A4DF4;
 }
 .contactBtn{
-    color: white;
+    color: #ffffff;
     padding: 15px 40px;
     background: #6A4DF4;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
-    transition: .4s;
+    margin-top: 10px;
 }
-.contactBtn:hover{
-    color: #6A4DF4;
-    background: rgb(239, 182, 172);
-}
-/* Header Part End */
 
+/* Menu Part End */
+/* ========================================= */
 /* Banner Part Start */
+
 #bannerPart{
-   
-    background: url(../images/Banner\ 1.png);
+    
+    background: url(../images/Banner\ image.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 .bannerOverly{
-    padding-top: 330px;
-    padding-bottom: 175px;
-    background: rgba(0, 0, 0, 0.621);
+    padding-top: 320px;
+    padding-bottom: 170px;
+    background: rgba(0, 0, 0, 0.629);
 }
-.bannerContent h1{
+.bannerText h1{
     font-size: 75px;
     font-weight: 700;
     line-height: 120%;
     padding-bottom: 60px;
 }
-.bannerContent p{
+.bannerText p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    padding: 0px 230px;
-    margin-bottom: 45px;
+    padding: 0 221px;
+    margin-bottom: 40px;
 }
-.bannerContent a{
+.bannerBtn{
     color: #ffffff;
-    padding: 20px 40px;
+    padding: 15px 40px;
     background: #6A4DF4;
     border-radius: 10px;
-    font-style: 20px;
-    font-weight: 600;
 }
-/* Banner Part End */
 
+/* Banner Part End */
+/* ========================================= */
 /* Counter Part Start */
+
 #counterPart{
-    padding: 160px 0;
+   padding: 160px 0;
 }
-.extraCount{
-    padding: 90px 0;
+.counterExtra{
+    margin-left: 2px;
+    padding: 80px 0;
     background: #E0FFF9;
     border-radius: 20px;
+    width: 100%;
 }
-.counterLeft{  
-    padding-left: 45px;  
+.counterLeft{
+    padding-left: 40px;
 }
-.counterLeft h4{    
-    font-size: 23px;
+.counterLeft h4{
+    font-size: 20px;
     font-weight: 500;
     padding-bottom: 25px;
     transition: .4s;
@@ -110,165 +112,172 @@ h1,h2,h3,h4,h5,h6,p{
 .counterLeft h4:hover{
     color: #6A4DF4;
 }
-.counterLeft h3{    
+.counterLeft h3{
+    color: #151515;
     font-size: 35px;
     font-weight: 600;
-    padding-right: 190px;
-    line-height: 110%;
+    padding-right: 200px;
+    line-height: 1.2;
 }
 .counterText h3{
+    color: #151515;
     font-size: 50px;
     font-weight: 700;
-    color: #151515;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 .counterText p{
+    color: #737373;
     font-size: 20px;
     font-weight: 400;
-    color: #737373;
 }
+
 /* Counter Part End */
-
+/* ========================================= */
 /* Service Part Start */
+
 #servicePart{
-    padding-bottom: 150px;
+    padding: 120px 0;
 }
- .serviceTop h3{
-    font-size: 45px;
-    font-weight: 700;
-    color: #151515;
-    padding-bottom: 30px;
- }
- .serviceTop p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #737373;
-    line-height: 120%;
-    padding-bottom: 100px;
- }
- .serviceItem{
-    padding: 75px 55px 50px 55px;
-    margin-top: 25px;
-    transition: .4s;
- }
 .serviceText h3{
-    font-size: 25px;
-    font-weight: 700;
-    color: #151515;
-    padding-top: 35px;
-    padding-bottom: 20px;
-}
-.serviceText p{
-    font-size: 15px;
-    font-weight: 400;
-    color: #737373;
-    line-height: 26px;
-}
-.serviceItem:hover{
-    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
-border-radius: 20px;
-}
-/* Service Part Start */
-
-/* Work Part Start */
-#workPart{
-    background: #F3F3F3;
-    padding-top: 175px;
-    padding-bottom: 145px;
-}
-.workTop h3{
-    font-size: 45px;
-    font-weight: 700;
-    color: #151515;
-    padding-bottom: 30px;
-}
-.workTop p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #737373;
-    line-height: 120%;
-    padding-bottom: 100px;
-}
-.workItem{
-    margin-top: 25px;
-    background: #ffffff;
-    border-radius: 20px;
-}
-.workImage img{
-    width: 100%;
-}
-.workText h3{
-    color: #151515;
-    font-size: 20px;
-    font-weight: 700;
-    padding-top: 35px;
-    padding-bottom: 20px;
-}
-.workText p{
-    color: #737373;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    padding-bottom: 20px;
-}
-/* Work Part Start */
-
-/* Agenc Part Start */
-#agencPart{
-    padding-top: 150px;
-    padding-bottom: 120px;
-}
-.agenctop h3{
-     font-size: 45px;
-     font-weight: 700;
-     color: #151515;
-     padding: 0 250px;
-     line-height: 120%;
-     margin-bottom: 35px;
-}
-.agenctop p{
-     font-size: 16px;
-     font-weight: 400;
-     color: #737373;
-     line-height: 26px;
-     padding: 0 30px;
-     margin-bottom: 90px;
-}
-.agencItem{
-    margin-top: 30px;
-}
-.agencItem h3{
-    font-size: 25px;
-    font-weight: 700;
-    color: #151515;
-    padding: 30px 0;
-}
-.agencItem p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #737373;
-    line-height: 26px;
-    padding-right: 80px;
-}
-.agencImages img{
-    padding-top: 30px;
-}
-/* Agenc Part Start */
-
-/* Review Part Start */
-#reviewPart{
-    padding-bottom: 200px;
-}
-.reviewTop h3{
     font-size: 45px;
     font-weight: 700;
     color: #151515;
     padding-bottom: 35px;
 }
-.reviewTop p{
+.serviceText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+}
+.serviceItem{
+    margin-top: 40px;
+    padding: 50px;
+    transition: .4s;
+
+}
+.serviceItem:hover{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+.serviceItem h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.serviceItem p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+}
+
+/* Service Part End */
+/* ========================================= */
+/* Recent Part Start */
+
+#recentPart{
+    padding: 120px 0;
+    background: #F3F3F3;
+}
+.recentText h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    padding-bottom: 50px;
+}
+.recentText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    padding-bottom: 100px;
+}
+.recentItem{
+    border-radius: 20px;
+    background: #ffffff;
+    margin-top: 25px;
+}
+.recentImage img{
+    width: 100%;
+}.recentTextB h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.recentTextB p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding: 0 35px;
+    padding-bottom: 35px;
+}
+
+/* Recent Part End */
+/* ========================================= */
+/* Agenc Part Start */
+
+#agencPart{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.agencText h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    padding: 0 180px;
+    line-height: 120%;
+    padding-bottom: 35px;
+}
+.agencText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding: 0 30px;
+    line-height: 26px;
+    padding-bottom: 130px;
+}
+.agencTextB h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    padding: 25px 0;
+}
+.agencTextB p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding-right: 80px;
+    line-height: 26px;
+}
+.agencItemB{
+    margin-top: 50px;
+}
+.agencRightImg img{
+    width: 100%;
+}
+
+/* Agenc Part End */
+/* ========================================= */
+/* Review Part Start */
+
+#reviewPart{
+    padding-bottom: 135px;
+}
+.reviewText h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    padding-bottom: 35px;
+}
+.reviewText p{
     font-size: 16px;
     font-weight: 400;
     color: #737373;
@@ -276,86 +285,77 @@ border-radius: 20px;
     padding-bottom: 130px;
 }
 .reviewItem{
-    padding: 50px 50px;
-    position: relative;
-}
-.reviewOverly{
-    position: absolute;
-    background: rgba(236, 219, 219, 0.5);
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    padding: 40px 0;
     border-radius: 20px;
-    opacity: 0;
-    visibility: hidden;
     transition: .4s;
 }
-.reviewItem:hover .reviewOverly{
-    opacity: 1;
-    visibility: visible;
+.reviewItem:hover{
+    background: #F4EFEF;
 }
-.reviewImageA img{
-    padding-bottom: 30px;
+.reviewImage img{
+    padding-left: 50px;
 }
-.revewTextA h4{
+.reviewTextB p{
+    color: #737373;
+    padding: 25px 50px;
     font-size: 16px;
     font-weight: 400;
-    color: #7B7B7B;
     line-height: 26px;
-    margin-bottom: 30px;
 }
-.revewTextA img{
+.reviewIcon{
     color: #F9BD2C;
-    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-bottom: 30px;
 }
 .reviewFlex{
     display: flex;
 }
-.reviewTextB{
+.reviewPic{
+    padding-left: 50px;
+}
+.picText{
     padding-left: 20px;
 }
-.reviewTextB h3{
+.picText h3{
     font-size: 20px;
     font-weight: 600;
-    color: #232323;
+    color: #151515;
     padding-top: 5px;
     padding-bottom: 10px;
 }
-.reviewTextB p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #7B7B7B;
-}
-/* Review Part Start */
-
+/* Review Part End */
+/* ========================================= */
 /* Form Part Start */
-#formPart{
-    padding: 160px 0;
+
+#fromPart{
+    padding: 130px 0;
     background: #F3F3F3;
 }
-.formItem h3{
+.formText h3{
     font-size: 45px;
     font-weight: 700;
     color: #151515;
-    line-height: 120%;
-    padding-right: 200px;
+    padding-top: 120px;
+    padding-right: 215px;
     padding-bottom: 35px;
+    line-height: 120%;
 }
-.formItem p{
+.formText p{
     font-size: 16px;
     font-weight: 400;
-    color: #7B7B7B;
+    color: #737373;
+    
+    padding-right: 125px;
+    padding-bottom: 25px;
     line-height: 26px;
-    padding-right: 115px;
-    padding-bottom: 20px;
 }
-.formItem h4{
+.formText h5{
     font-size: 16px;
     font-weight: 400;
-    color: #7B7B7B;
+    color: #737373;
+    padding-right: 120px;
+    padding-bottom: 25px;
     line-height: 26px;
-    padding-right: 115px;
 }
 .contactForm{
     background: #FFFFFF;
@@ -373,21 +373,34 @@ border-radius: 20px;
     padding-bottom: 35px;
     text-align: center;
 }
-.formBtn a{
+  
+  .headTextform h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 40px;
+  }
+  .formBtn{
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .formBtn a{
     background: #6A4DF4;
-    padding: 15px 145px;
+    padding: 10px 145px;
+    width: 100%;
     color: #ffffff;
     font-size: 20px;
+    border-radius: 10px;
     font-weight: 500;
-    border-radius: 20px;
-    margin-bottom: 50px;
+  
 }
 /* Form Part End */
-
+/* ========================================= */
 /* Footer Part Start */
+
 #footerPart{
     padding-top: 150px;
-    padding-bottom: 140px;
+    padding-bottom: 50px;
 }
 .footerLeft img{
     padding-bottom: 40px;
@@ -438,17 +451,10 @@ border-radius: 20px;
     font-weight: 400;
     color: #D0D0D0;
 }
-/* Footer Part Start */
-
-/* header Part Start */
-/* header Part Start */
-
-/* header Part Start */
-/* header Part Start */
-
-/* header Part Start */
-/* header Part Start */
-
-/* header Part Start */
-/* header Part Start */
-
+/* Footer Part End */
+/* ========================================= */
+/* Header Part Start */
+/* Header Part End */
+/* ========================================= */
+/* Header Part Start */
+/* Header Part End 
